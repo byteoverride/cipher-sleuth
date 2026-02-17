@@ -88,4 +88,6 @@ echo "rot13_text" | ./cipher-sleuth
 #   XOR Key: 0x55 -> "21232f297a57a5a743894a0e4a801fc3"
 #   Active Lookup: Success! -> admin
 ```
+### Solving Hashes use Active lookup Feature 
+<img width="1246" height="266" alt="image" src="https://github.com/user-attachments/assets/841ddad7-ac8f-46b4-99d0-487cf5edee5b" />
 
