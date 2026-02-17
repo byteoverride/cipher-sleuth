@@ -1,6 +1,6 @@
 # 🕵️ Cipher Sleuth
 
-**Cipher Sleuth** is a modular, high-performance forensic engine and cryptographic solver designed for **PicoCTF 2026**. It automatically identifies, analyzes, and cracks various encoding schemes, hashes, and classical ciphers.
+**Cipher Sleuth** is a modular, high-performance forensic engine and cryptographic solver designed for **PicoCTFs**. It automatically identifies, analyzes, and cracks various encoding schemes, hashes, and classical ciphers.
 
 Designed as a single-binary CLI tool, it features recursive analysis, local solvers, and potential online fallbacks for challenging artifacts.
 
@@ -74,16 +74,12 @@ echo "rot13_text" | ./cipher-sleuth
 ## ⚡ Examples
 
 ### Solving a Rot13 Flag
-```bash
-./cipher-sleuth -t "cvpbPGS{guvf_vf_ebg13}"
-# Output: Success! Algorithm: Rot13 -> picoCTF{this_is_rot13}
-```
+<img width="1173" height="353" alt="image" src="https://github.com/user-attachments/assets/e3b8725c-0356-4d90-a3cf-9e8478ffebda" />
+
 
 ### Solving an RSA Challenge
-```bash
-echo -e "N: 100000\ne: 3\nc: 74088" | ./cipher-sleuth
-# Output: Success! Algorithm: RSA Small Exponent -> *
-```
+<img width="1789" height="495" alt="image" src="https://github.com/user-attachments/assets/d73d546f-5c9e-4054-a56a-578f2c0e8395" />
+
 
 ### Solving XOR with Online Hash Lookup
 ```bash
@@ -92,3 +88,4 @@ echo -e "N: 100000\ne: 3\nc: 74088" | ./cipher-sleuth
 #   XOR Key: 0x55 -> "21232f297a57a5a743894a0e4a801fc3"
 #   Active Lookup: Success! -> admin
 ```
+
